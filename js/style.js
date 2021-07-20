@@ -21,8 +21,10 @@ const date = `${now.getDate()}`;
 const year = `${now.getFullYear()}`;
 const hours = `${now.getHours()}`;
 const minutes = `${now.getMinutes()}`;
+const seconds = `${now.getSeconds()}`;
 
-fullDate.innerHTML = ` ${hours} : ${minutes}<br> ${year}, ${date} ${month}`;
+fullDate.innerHTML = ` ${hours} : ${minutes} : ${seconds} <br> ${year}, ${date} ${month}`;
+
 
 particlesJS("particles-js", {
     "particles": {
